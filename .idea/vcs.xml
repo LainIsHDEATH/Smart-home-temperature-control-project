@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/AI-inference-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ControllerService" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/FrontEndDiplom" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/FrontEndDiplom/temperature-simulator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/LSTM-trainer-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PID-autotune-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/RL-trainer-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/RoomSimulatorService" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/StorageService" vcs="Git" />
+  </component>
+</project>

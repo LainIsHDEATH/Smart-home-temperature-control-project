@@ -1,0 +1,24 @@
+[submodule "RoomSimulatorService"]
+	path = RoomSimulatorService
+	url = https://github.com/LainIsHDEATH/RoomSimulatorServiceDiplom
+[submodule "StorageService"]
+	path = StorageService
+	url = https://github.com/LainIsHDEATH/StorageServiceDiplom
+[submodule "PidControllerService"]
+	path = PidControllerService
+	url = https://github.com/LainIsHDEATH/PidControllerServiceDiplom
+[submodule "FrontEnd"]
+	path = FrontEnd
+	url = https://github.com/LainIsHDEATH/SimulatorFrontEndDiplom
+[submodule "lstm-trainer-service"]
+	path = lstm-trainer-service
+	url = https://github.com/LainIsHDEATH/LSTM-trainer-service-diplom
+[submodule "rl-trainer-service"]
+	path = rl-trainer-service
+	url = https://github.com/LainIsHDEATH/RL-trainer-service-diplom
+[submodule "ai-inference-service"]
+	path = ai-inference-service
+	url = https://github.com/LainIsHDEATH/AI-inference-service-diplom
+[submodule "PID-autotune-service"]
+	path = PID-autotune-service
+	url = https://github.com/LainIsHDEATH/PID-autotune-service-diplom

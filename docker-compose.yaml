@@ -123,10 +123,18 @@ services:
       - DB_PASSWORD=postgres
       - STORE_API=http://storage-service:8082/api
       - MODELS_DIR=/models
+      - NVIDIA_VISIBLE_DEVICES=all
     volumes:
       - ./models:/models
     ports:
       - "7001:7001"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [ gpu ]
     networks:
       - microservices-net
 
@@ -154,8 +162,16 @@ services:
     container_name: ai-inference-service
     environment:
       - MODELS_DIR=/models
+      - NVIDIA_VISIBLE_DEVICES=all
     volumes:
       - ./models:/models
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [ gpu ]
     ports:
       - "7003:7003"
     networks:

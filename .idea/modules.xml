@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Diplom-git.iml" filepath="$PROJECT_DIR$/.idea/Diplom-git.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PidControllerService/PidControllerService.iml" filepath="$PROJECT_DIR$/PidControllerService/PidControllerService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RoomSimulatorService/RoomSimulatorService.iml" filepath="$PROJECT_DIR$/RoomSimulatorService/RoomSimulatorService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StorageService/StorageService.iml" filepath="$PROJECT_DIR$/StorageService/StorageService.iml" />
     </modules>
   </component>
 </project>
